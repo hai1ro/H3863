@@ -22,6 +22,10 @@ endif()
 
 add_subdirectory_if_exist(custom)
 
+if(DEFINED CONFIG_ENABLE_MY_SAMPLE)
+add_subdirectory_if_exist(demo)
+endif()
+
 set(PRIVATE_HEADER
 )
 

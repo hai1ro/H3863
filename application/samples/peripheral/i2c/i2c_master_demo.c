@@ -19,9 +19,9 @@
 #define I2C_MASTER_ADDR                   0x0
 #define I2C_SET_BAUDRATE                  400000
 #define I2C_MASTER_PIN_MODE               2
+#define I2C_TASK_DURATION_MS              500
 
 #define I2C_TASK_STACK_SIZE               0x1000
-#define I2C_TASK_DURATION_MS              500
 #define I2C_TASK_PRIO                     (osPriority_t)(17)
 
 static void app_i2c_init_pin(void)
