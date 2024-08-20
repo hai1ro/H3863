@@ -118,7 +118,7 @@ static void *i2c_master_task(const char *arg)
             osal_msleep(1000/30);
             ssd1306_SetCursor(cur_x, cur_y);
             ssd1306_ClearOLED();
-            ssd1306_DrawString("Usagi nono", Font_7x10, White);
+            ssd1306_DrawString("H3863 ", Font_7x10, White);
             ssd1306_UpdateScreen();
     }
     return NULL;
