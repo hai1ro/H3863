@@ -1,8 +1,5 @@
-    set(SOURCES_LIST
-        ${CMAKE_CURRENT_SOURCE_DIR}/ssd1306_fonts.c
-        ${CMAKE_CURRENT_SOURCE_DIR}/ssd1306.c
-        ${CMAKE_CURRENT_SOURCE_DIR}/demo.c
-    )
+    file(GLOB SOURCES_LIST "${CMAKE_CURRENT_SOURCE_DIR}/*.c")
+
 
     set(PUBLIC_HEADER_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}
